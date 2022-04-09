@@ -29,15 +29,14 @@ Mobile View:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mark-escosura/qr-code-component)
-- Live Site URL: [Add live site URL here](https://qr-code-ivory.vercel.app/)
-
-## My process
+- [Solution](https://github.com/mark-escosura/qr-code-component)
+- [Deployed Site](https://qr-code-ivory.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Flexbox
 - Mobile-first workflow
 
 ### What I learned
@@ -45,14 +44,20 @@ Mobile View:
 I learned how to use the media css property to include a block of CSS properties only if a certain condition is true.
 
 ```css
-@media screen and (max-width: 758px) {
-  .container {
-    margin: 30px;
-  }
-}
+<img src="images/image-qr-code.png" alt="qr-code">
 ```
 
-**Code snippet above is showing that if the browser window is 758px or smaller, the elements with the container class will have a margin of 30px.**
+**Code Snippet above is showing an image element with its source and an alternate text. It's important to include descriptive alternate text and all decorative <img> elements have empty alt attributes (e.g. alt="")**
+
+```
+footer {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+```
+
+**Another thing I learned from this project is that its important to use HTML semantic elements so screen readers have an easy time navigating through the webpage.**
 
 ### Continued development
 
@@ -63,3 +68,7 @@ I plan on focusing more on responsive styling. I wanna dive deep more into media
 - Website - [Mark Escosura](https://mark-escosura-portfolio.vercel.app/)
 - Frontend Mentor - [@mark-escosura](https://www.frontendmentor.io/profile/mark-escosura)
 - Twitter - [@ayeitsmaark](https://www.twitter.com/ayeitsmaark)
+
+## Acknowledgement
+
+The assistance provided by [@dawidPoznanski](https://www.frontendmentor.io/profile/dawidPoznanski) was greatly appreciated.
